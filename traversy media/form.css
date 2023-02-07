@@ -1,0 +1,117 @@
+.container{
+    position: relative;
+    height: 550px;
+    padding: 30px 30px;
+}
+#myform{
+    height: 500px;
+    position: relative;
+    background-color: gray;
+}
+h1{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    height: 122px;
+    width: 314px;
+    left: 488px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.name{
+    
+    left: 477px;
+    position: absolute;
+    top: 122px;
+    font-family: sans-serif;
+
+}
+#name{
+    left: 528px;
+    position: absolute;
+    top: 122px;
+    width: 199px;
+    border: 2px solid red;
+    border-radius: 6px;
+}
+.email{
+    left: 477px;
+    position: absolute;
+    top: 178px;
+    font-family: sans-serif;
+
+}
+#email{
+    left: 528px;
+    position: absolute;
+    top: 178px;
+    width: 199px;
+    border: 2px solid red;
+    border-radius: 6px;
+}
+.btn{
+    left: 567px;
+    height: 30px;
+    position: absolute;
+    top: 228px;
+    font-family: sans-serif;
+    width: 122px;
+    border-radius: 6px;
+    background-color: red;
+    color: white;
+}
+.btn:hover{
+    background-color: gray;
+    color: black;
+}
+.items{
+    left: 477px;
+    position: absolute;
+    top: 278px;
+    font-family: sans-serif;
+}
+.items li{
+    list-style: none;
+    font-family: sans-serif;
+}
+.msg{
+    background-color: red;
+    color: white;
+    position: absolute;
+    top: 60px;
+    left: 540px;
+ 
+}
+.error{
+    position: absolute;
+    background-color: rgb(211, 25, 25);
+    color: white;
+    padding:7px;
+    margin: 6px;
+    top: 36px;
+    width: 180px;
+    left: 526px;
+    height: 14px;
+    border-radius:8px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#users{
+  display: inline-block;
+  position: absolute;
+  top: 307px;
+  left: 467px;
+    
+}
+#users li{
+    /* position: absolute; */
+   
+    background-color: gray;
+    border: 2px solid black;
+    border-radius: 8px;
+    list-style: none;
+    /* display:inline-block ; */
+    /* padding:4rem; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}

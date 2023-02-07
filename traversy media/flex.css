@@ -1,0 +1,10 @@
+.container-flex{
+display: flex;
+justify-content: space-between;
+}
+.fitems{
+    background-color: red;
+    height: 122px;
+    width: 122px;
+    
+}

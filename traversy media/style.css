@@ -1,0 +1,134 @@
+ *{
+     margin: 0;
+     padding: 0;
+ }
+ 
+body{
+    background-color: #f4f4f4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+}
+.container{
+  width:80%;
+  margin: auto;
+}
+button{
+    color: white;
+    background-color:gray;
+    padding: 10px 5px;
+    margin: 40px 5px;
+    border-radius: 12px;
+    width: 200px;
+    
+
+}
+.clr{
+    clear: both;
+}
+button:hover{
+ color: white;
+ background-color: red;
+}
+
+
+
+.box-1{
+    background-color: #333;
+    color: #f4f4f4;
+    border: 5px solid red;
+    border-bottom-width: 10px;
+    border-top-style: dotted;
+    padding: 20px;
+    margin: 20px 0px;
+}
+.box-1 h1{
+    color:#fff;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    word-spacing: 1em;
+}
+.box-2{
+    border: 3px dotted gray;
+    padding: 20px;
+    margin: 20px 0;
+    
+}
+.Myform{
+    padding: 20px;
+    margin: 10px 0;
+
+}
+.Myform label{
+    display: block;
+}
+.Myform input[type="text"] , input[type="email"] , textarea{
+    padding: 8px;
+    width: 100%;
+}
+.Myform h1{
+    text-align: center;
+}
+.Myform select {
+    padding: 8px;
+    width: 40%;
+}
+.Myform input[type="number"], input[type="date"]{
+    padding:8px;
+    width: 30%;
+}
+.block{
+    float: left;
+    width: 33%;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+}
+#main-block{
+    float: left;
+    width: 70%;
+    border: 1px solid black;
+    box-sizing: border-box;
+    background-color: gray;
+    color: white;
+    padding:2px 2px ;
+
+}
+#sidebox{
+    float: right;
+    width: 30%;
+    border: 3px solid black;
+    padding: 6px 2px;
+    box-sizing: border-box;
+    background-color: gray;
+    color: white;
+
+}
+.p-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid gray;
+    margin-top: 30px;
+    position: relative;
+    background-image: url(../images/justfun.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.p-box h1{
+    top: 100px;
+    position: absolute;
+    left: 200px;
+}
+.p-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 100px;
+}
+.bts{
+    top: 100px;
+    position: absolute;
+}
